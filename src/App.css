@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  @apply !bg-secondary;
+}
+
+body {
+  @apply bg-primary text-primary-content;
+}
+
+#body {
+  position: static;
+}

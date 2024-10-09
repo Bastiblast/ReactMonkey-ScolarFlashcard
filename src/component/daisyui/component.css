@@ -1,0 +1,16 @@
+.card {
+  transition: all 1s ease-in-out; /* transition width over 2 seconds with ease-out timing */
+}
+
+.fullscreen .card-body {
+  transition: all 1s ease-in-out; /* transition width over 2 seconds with ease-out timing */
+
+  transform: translateY(45%);
+}
+
+.fullscreen .launch-btn {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+}
